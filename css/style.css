@@ -123,7 +123,7 @@ img {
   height: 99vh;
 }
 .s-header {
-  background: url('http://via.placeholder.com/1350x750');
+  background: url('https://firebasestorage.googleapis.com/v0/b/homepage-f0ce6.appspot.com/o/header.jpg?alt=media&token=953a42d0-b9fa-4bd3-af3d-83da1847a992');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -694,8 +694,13 @@ img {
 /* --------------------------------------
   10. PRICES
 -----------------------------------------*/
+.prices {
+  background-image: url('../img/pattern.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .prices .price-title {
-  margin-top: 120px;
+  
 }
 .prices .price-title h3 {
   font-weight: 300;
@@ -753,8 +758,7 @@ img {
   -o-box-shadow: none;
 }
 .pric-tables {
-  padding-right: 0;
-  padding-left: 60px;
+  padding-top: 60px;
 }
 .pric-tables .item {
   background: #FFF;
