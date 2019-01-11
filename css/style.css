@@ -782,6 +782,7 @@ img {
 }
 .pric-tables .item .mount h3 {
   font-size: 40px;
+  line-height: 40px;
   font-family: 'Poppins', sans-serif;
 }
 .pric-tables .item .mount h3 span {
@@ -800,7 +801,7 @@ img {
   padding-bottom: 15px;
   margin-bottom: 15px;
   color: #656565;
-  font-size: 13.5px;
+  font-size: 17px;
   font-weight: 300;
 }
 .pric-tables .item .pfeat p:last-child {
