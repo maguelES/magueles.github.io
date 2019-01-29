@@ -963,17 +963,38 @@ img {
   position: relative;
   border: 1px solid #e6e6e6;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out; */
   margin-bottom: 30px;
 }
+.blog-item .facebook-acc {
+  color: #3C5A99;
+}
+.blog-item .twitter-acc {
+  color: #1DA1F2;
+}
+.blog-item .instagram-acc {
+  color: #E1306C;
+}
+.blog-item .linkedin-acc {
+  color: #006192;
+}
+.blog-item .facebook-acc {
+  color: #3C5A99;
+}
+.blog-item .facebook-acc {
+  color: #3C5A99;
+}
+
 .blog-item:hover a,
+.blog-item:hover i,
 .blog-item:hover {
   background: #252525;
-  color: #FFF;
+  color: #FFF !important;
+  
 }
 .blog-item .post-meta {
   font-size: 12px;
@@ -1009,6 +1030,8 @@ img {
 .blog-item:hover p {
   color: #AAB2BD;
 }
+
+
 
 /* --------------------------------------
   13. CONTACT
